@@ -1,14 +1,14 @@
-variable "securitygroup_name" {
+variable "name" {
   type = "string"
   default = "default"
 }
 
-variable "securitygroup_desc" {
+variable "description" {
   type = "string"
   default = "desc"
 }
 
-variable "securitygroup_rules" {
+variable "rules" {
   type = "list"
   default = []
 }
