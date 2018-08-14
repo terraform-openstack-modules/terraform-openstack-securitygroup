@@ -1,14 +1,14 @@
 variable "name" {
-  type = "string"
+  type    = "string"
   default = "default"
 }
 
 variable "description" {
-  type = "string"
+  type    = "string"
   default = "desc"
 }
 
 variable "rules" {
-  type = "list"
+  type    = "list"
   default = []
 }
