@@ -18,7 +18,7 @@ Foram considerados os seguintes itens para a construção de security group:
 <pre>
 <b>module "instance-sg" </b>{
   source      = "terraform-openstack-modules/securitygroup/openstack"
-  version     = "0.0.1"
+  version     = "0.0.2"
   name        = "instance-sg"
   description = "Instance Rules Project"
   rules       = <b>"${var.instance-rules-sg}"</b>
